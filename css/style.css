@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+/* This is where my header starts */
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid #000000;
+}
+header img{
+	float:left;
+}
+
+.logo {
+	color: #000000;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+
+header nav ul {
+	list-style: none;
+	float: right;
+	height: 30px;
+}
+
+nav ul li {
+	float: left;
+	color: #000000;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ 
+ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: #A634D7;
+}
+/* This is where my header ends */
+
+/* This is where my hero starts */
+.hero{
+	margin-top:0px;
+	background-color: #000000;
+	width: 100%;
+	height: 350px;
+	color: #FFFFFF;	
+}
+
+.herotext{
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+section h1{
+	margin-top:0px;
+	margin-left: 0px;
+	font-size: 48px;
+}
+
+section p{
+	font-size: 20px;
+	
+}
+
+section button{
+	height: 30px;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	border-with: 4px;
+	border-color: #A634D7;
+	color: #A634D7;
+}
+
+section button:hover {
+	background-color: #A634D7;
+	color: #FFFFFF;
+}
+
+section img {
+	float: right;
+	padding-right: 10%;
+	padding-top: 3%;
+}
+/* This is where my hero ends */
+
+/* This is where my content starts */
+.flexContainer1 {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	background-image: url("../images/gradient01.png");
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size:60%;
+}
+
+.casestudy1image{
+	width: 50%;
+	margin-left: 15%;
+}
+
+.casestudy1text{
+	width: 50%;
+	align-items: center;
+	padding-top: 5%;
+}
+
+.flexContainer2{
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	background-color: #EAEAEA;
+	background-image:url("../images/gradient02.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size:40%;
+	height: 450px;
+}
+
+.casestudy2image{
+	width: 50%;
+	margin-right: 15%;
+}
+
+.casestudy2text{
+	align-items: center;
+	width: 50%;
+	padding-top: 3%;
+	margin-left: 15%;
+}
+
+.myillustration div {
+	display: grid;
+	grid-template-columns: auto auto auto auto;	
+	grid-column-gap: 10px;
+	
+}
+.ladybug{
+	display:flex;
+	width:100%;
+}
+.chatnoir{
+	display:flex;
+	width:100%;
+}
+.haunted{
+	display:flex;
+	width:100%;
+}
+.henry{
+	display:flex;
+	width:100%;
+}
+
+.grid-item {
+	position: relative;
+	width: 100%;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-item figcaption {
+	position: absolute;
+	display: flex;
+	width: 84%;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	background-color: #000000;
+  	opacity: .8;
+	align-self: flex-end;
+	justify-content: center
+}
+.illustrationbutton{
+	float: right;
+	margin-right: 3%;
+	
+}
+
+#myBtn {
+  opacity: .5;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+}
+
+#myBtn:hover {
+	opacity: 100%;
+}
+/* This is where my content ends */
+
+/* This is where my footer starts */
+footer {
+	width: 100%;
+	height: 75px;
+	background-color: #FFFFFF;
+	border-top: 3px solid #000000;
+	color: #000000;
+	align-content: center;
+}
+
+footer p{
+	float: left;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+	padding-top:10px;
+}
+
+footer ul li{
+	display: inline-block;
+}
+/* This is where my footer ends */
